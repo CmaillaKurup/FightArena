@@ -5,14 +5,15 @@ namespace FightArena
 {
     public class Heroes
     {
-        //private int attackRange;
-        //private int defence;
         private int hitPoints;
-        
         private IEnumerable<int> defenceRange = Enumerable.Range(0,0);
         private IEnumerable<int> attackRange = Enumerable.Range(0,0);
 
-
+        
+        public Heroes()
+        {
+            
+        }
         public Heroes(IEnumerable<int> attackRange, IEnumerable<int> defenceRange, int hitPoints)
         {
             attackRange = AttackRange;
