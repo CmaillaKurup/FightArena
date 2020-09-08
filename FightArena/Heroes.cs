@@ -6,6 +6,12 @@ namespace FightArena
         private int defence;
         private int hitPoints;
 
+        public Heroes(int attackRange, int defence, int hitPoints)
+        {
+            attackRange = AttackRange;
+            defence = Defence;
+            hitPoints = HitPoints;
+        }
         public int AttackRange
         {
             get => attackRange;
