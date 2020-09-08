@@ -2,9 +2,10 @@ using System.Linq;
 
 namespace FightArena
 {
-    public class GunnerPoison
+    public class GunnerPoison : Heroes
     {
-        Heroes heroes = new Heroes(Enumerable.Range(1, 13), Enumerable.Range(5, 5),90 );
-
+        //Heroes heroes = new Heroes(Enumerable.Range(1, 13), Enumerable.Range(5, 5),90 );
+        
+        
     }
 }
