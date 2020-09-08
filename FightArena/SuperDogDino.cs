@@ -1,8 +1,10 @@
+using System.Linq;
+
 namespace FightArena
 {
     public class SuperDogDino
     {
-        Heroes heroes = new Heroes(0,0,0 );
+        Heroes heroes = new Heroes(Enumerable.Range(6, 8), Enumerable.Range(2, 8),70 );
 
     }
 }

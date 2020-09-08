@@ -1,27 +1,34 @@
+using System.Collections.Generic;
+using System.Linq;
+
 namespace FightArena
 {
     public class Heroes
     {
-        private int attackRange;
-        private int defence;
+        //private int attackRange;
+        //private int defence;
         private int hitPoints;
+        
+        private IEnumerable<int> defenceRange = Enumerable.Range(0,0);
+        private IEnumerable<int> attackRange = Enumerable.Range(0,0);
 
-        public Heroes(int attackRange, int defence, int hitPoints)
+
+        public Heroes(IEnumerable<int> attackRange, IEnumerable<int> defenceRange, int hitPoints)
         {
             attackRange = AttackRange;
-            defence = Defence;
+            defenceRange = DefenceRange;
             hitPoints = HitPoints;
         }
-        public int AttackRange
+        public IEnumerable<int> AttackRange
         {
             get => attackRange;
             set => attackRange = value;
         }
 
-        public int Defence
+        public IEnumerable<int> DefenceRange
         {
-            get => defence;
-            set => defence = value;
+            get => defenceRange;
+            set => defenceRange = value;
         }
 
         public int HitPoints

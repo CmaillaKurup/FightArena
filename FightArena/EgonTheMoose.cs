@@ -1,8 +1,10 @@
+using System.Linq;
+
 namespace FightArena
 {
     public class EgonTheMoose
     {
-        Heroes heroes = new Heroes(0,0,0 );
+        Heroes heroes = new Heroes(Enumerable.Range(5, 11), Enumerable.Range(4, 4),90 );
         
     }
 }
