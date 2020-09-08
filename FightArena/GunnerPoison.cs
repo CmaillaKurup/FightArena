@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class GunnerPoison
+    public class GunnerPoison : Heroes
     {
         
     }

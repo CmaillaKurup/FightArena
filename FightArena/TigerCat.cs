@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class TigerCat
+    public class TigerCat : Heroes
     {
         
     }

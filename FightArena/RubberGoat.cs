@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class RubberGoat
+    public class RubberGoat : Heroes
     {
         
     }

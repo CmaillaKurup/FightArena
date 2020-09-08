@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class KongFuHarry
+    public class KongFuHarry : Heroes
     {
         
     }

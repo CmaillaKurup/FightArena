@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class MiniMouseMikkel
+    public class MiniMouseMikkel : Heroes
     {
         
     }

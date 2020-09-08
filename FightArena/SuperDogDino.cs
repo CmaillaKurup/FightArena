@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class SuperDogDino
+    public class SuperDogDino : Heroes
     {
         
     }

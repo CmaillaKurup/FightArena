@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class EgonTheMoose
+    public class EgonTheMoose : Heroes
     {
         
         

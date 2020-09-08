@@ -1,6 +1,6 @@
 namespace FightArena
 {
-    public class KarlFast
+    public class KarlFast : Heroes
     {
         
     }
