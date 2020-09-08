@@ -7,29 +7,19 @@ namespace FightArena
         private int defenceRange;
         //private IEnumerable<int> defenceRange = Enumerable.Range(0,0);
         //private IEnumerable<int> attackRange = Enumerable.Range(0,0);
-
-        private string heroe;
-
-        public string Heroe
-        {
-            get => heroe;
-            private set => heroe = value;
-        }
+        
 
         public Heroes()
         {
             
         }
-        public Heroes(int attackRange, int defenceRange, int hitPoints)
-        {
-            attackRange = AttackRange;
-            defenceRange = DefenceRange;
-            hitPoints = HitPoints;
-        }
+
+        
+        
         public int AttackRange
         {
             get => attackRange;
-            private set => attackRange = value;
+            set => attackRange = value;
         }
 
         public int DefenceRange

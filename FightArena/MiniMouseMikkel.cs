@@ -6,7 +6,12 @@ namespace FightArena
     {
         //Heroes heroes = new Heroes(Enumerable.Range(9, 9), Enumerable.Range(9, 9),40 );
 
-        Heroes _heroes = new Heroes();
-        
+        Heroes heroes = new Heroes();
+
+        public override int AttackRange(Heroes = 9;)
+        {
+            heroes.AttackRange = 9;
+            return heroes.AttackRange;
+        }
     }
 }
